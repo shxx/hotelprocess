@@ -1,0 +1,90 @@
+.order-detail-evaluate{
+	padding:1rem 1.7rem;
+}
+.no-evaluate{
+	color:#ccc;
+	font-size:1rem;
+	padding-bottom:1rem;
+}
+.evaluate-desc{
+	font-size:#666;
+	font-size:1.3rem;
+}
+.evaluate-desc li{
+	height:2.5rem;
+	line-height:2.5rem;
+}
+.evaluate-desc li p{
+	display:inline-block;
+	vertical-align:middle;
+	line-height:2.5rem;
+}
+.evaluate-star-w{
+	margin-left:1rem;
+}
+.evaluate-star-w span{
+	vertical-align: middle;
+}
+.evaluate-star{
+	width:2rem;
+	height:2rem;
+	display: inline-block;
+	line-height:1.6rem;
+	font-size:2rem;
+	color:#bbb;
+}
+.evaluate-star .icon-pingjiaxingxingdianliang{
+	color:#f5a21b;
+}
+.y-evaluate,.n-evaluate{
+	margin-bottom:1rem;
+}
+.y-evaluate{
+	position:relative;
+	padding:0.75rem;
+	color:#333;
+}
+.y-evaluate span{
+	position:relative;
+	z-index: 2;
+}
+.evaluate-arrow{
+	position:relative;
+	z-index:3;
+	left:1rem;
+}
+.evaluate-arrow:before{
+	display: block;
+	content:"";
+    position: absolute;
+    top: -13px;
+    left: 0;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-bottom:6px solid #5cb8e6;
+}
+.evaluate-arrow:after{
+	content:"";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-bottom:6px solid #FFF;
+}
+.y-evaluate:after{
+    border: 1px solid #5cb8e6;
+    background:#f5faff;
+    box-sizing: border-box;
+    content: "";
+    height: 200%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width: 200%;
+    border-radius: 0.5rem;
+}

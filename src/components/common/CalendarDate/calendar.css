@@ -1,0 +1,15 @@
+
+.we-calendar-header{height:4rem;line-height:4rem;font-size:1.6rem;color:#333;text-align:center;background:#f2f2f2;}
+.we-calendar-body{background:#FFF;}
+.we-calendar-weekday{padding:0 0.5rem;border-bottom:1px solid #eeeeee;height:3rem;line-height:3rem;}
+.we-calendar-weekday li{float:left;width:13.285%;margin-left:1%;display:inline-block;text-align:center;font-size:1.5rem;}
+.we-calendar-day{padding:1rem 0.5rem 1.4rem 0;}
+.we-calendar-day ul{padding-top:0.5rem;}
+.we-calendar-day li{width:13.285%;float:left;display:inline-block;margin-left:1%;margin-top:0.25rem;height:3rem;padding:0.5rem 0;text-align:center;font-size:1.5rem;line-height:1.5rem;}
+.we-calendar-day li.disabled{cursor:not-allowed;color:#bbb}
+.we-calendar-day li.selected-range{-webkit-border-radius:0.5rem;border-radius:0.5rem;background:rgba(90,171,252,0.4);color:#FFF;}
+.we-calendar-day li.checkIn,.we-calendar-day li.checkOut{-webkit-border-radius:0.5rem;border-radius:0.5rem;background:#5babfc;color:#FFF;}
+.we-calendar-day li.checkIn:after{display:block;content:'入住';padding-top:0.35rem;font-size:1.2rem;}
+.we-calendar-day li.checkOut:after{display:block;content:'离店';padding-top:0.35rem;font-size:1.2rem;}
+
+.we-calendar-wrap{width:100%;position:absolute;height:calc(100% - 4rem);padding-top:4rem;overflow-y:scroll;background:#FFF;}

@@ -1,0 +1,56 @@
+{
+    "code":"SUCCESS",
+    "data": {
+        "employeeHotelDesc": {
+            "hotelId": "10001",
+            "employeePic": "/dist/images/employee_4.jpg",
+            "employeeDepart": "客房部",
+            "employeeJob": "客房服务员",
+            "employeeArea": "5楼",
+            "hotelDesc": [{
+                "hotelDepart": "客房部",
+                "departId": "11000",
+                "hotelJob":[{
+                    "jobId": "11001",
+                    "Job": "客房服务员"
+                },{
+                    "jobId": "11002",
+                    "Job": "前厅服务员"
+                },{
+                    "jobId": "11003",
+                    "Job": "客房部主管"
+                }]
+            },{
+                "hotelDepart": "餐饮部",
+                "departId": "12000",
+                "hotelJob":[{
+                    "jobId": "12001",
+                    "Job": "餐饮服务员"
+                },{
+                    "jobId": "12002",
+                    "Job": "餐饮部经理"
+                },{
+                    "jobId": "12003",
+                    "Job": "餐饮部主管"
+                }]
+            }],
+            "hotelArea":[{
+                "areaDesc": "1楼"
+            },{
+                "areaDesc": "2楼"
+            },{
+                "areaDesc": "3楼"
+            },{
+                "areaDesc": "4楼"
+            },{
+                "areaDesc": "5楼"
+            },{
+                "areaDesc": "6楼"
+            },{
+                "areaDesc": "7楼"
+            },{
+                "areaDesc": "8楼"
+            }]
+        }
+    }
+}

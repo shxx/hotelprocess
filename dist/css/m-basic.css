@@ -1,0 +1,371 @@
+html {font-size:62.5%;/*10 ÷ 16 × 100% = 62.5%*/min-height: 100%;height:100%;}
+body {font-size:1.2rem;line-height:1.5rem;height:100%;-webkit-overflow-scrolling:touch;overflow-x:hidden;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,a{ margin:0; padding:0; outline:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+body,input, textarea, keygen, select, button,a{font-family:"Helvetica Neue", Helvetica, "Microsoft Yahei", STHeiTi, sans-serif;color:#666;}
+img{max-width:100%;}
+img,fieldset{border:0;vertical-align:top;}
+ul,ol,li{list-style-type:none}
+em,address{font-style:normal}
+b{font-weight:normal;}
+i,em{font-style:normal;}
+table{border-collapse:collapse}
+body,input,textarea,button,a{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a{color:#333;text-decoration:none;}
+a:focus{outline:none;-moz-outline:none;}
+.hidden{display:none;}
+.clear{clear:both;}
+b{font-weight:normal;}
+i{font-style:normal;}
+.fl{float:left;}
+.icon-weibiaoti3:before { content: "\e649"; }
+.fr{float:right;}
+article, aside, footer, header, hgroup, nav, section {display: block;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.clearfix{zoom:1;}
+input{border-radius:0;background-image:-webkit-linear-gradient(top,#FFFFFF #FFFFFF);background-image:-moz-linear-gradient(top,#FFFFFF,#FFFFFF)}
+input,select{-webkit-appearance:none;appearance:none;}
+input,button,select{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+.m-wehotel-main{height:calc(100% - 4rem);padding-top:4rem;overflow-y:scroll;}
+.m-wehotel,.m-height100{height:100%;}
+
+.none{display:none;}
+.block{display:block;}
+.hidden{visibility:hidden;}
+
+.col333{color: #333;}
+.col3c{color: #3c3c3c;}
+.col666{color:#666;}
+.col9c{color:#9c9c9c;}
+.col4f4{color:  #4c9ff4;}
+.bgcolfff{background:#FFF;}
+.bgcolf2{background:#F2F2F2;}
+.ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
+input[placeholder], [placeholder],{color:#9A9A9A !important; }
+
+@media screen and (max-width:320px){html{font-size:10px}}
+@media screen and (min-width:360px){html{font-size:11px}}
+@media screen and (min-width:400px){html{font-size:12px}}
+@media screen and (min-width:480px){html{font-size:13px}}
+@media screen and (min-width:560px){html{font-size:14px}}
+@media screen and (min-width:600px){html{font-size:15px}}
+@media screen and (min-width:640px){html{font-size:16px}}
+
+/* 字体声明  */
+@font-face{font-family: 'iconfont';src:url('../font/iconfont.ttf') format('truetype');}
+.iconfont{font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+/*字体Class*/
+.icon-user:before { content: "\e682"; }
+.icon-paisongdan:before { content: "\e683"; }
+.icon-caidanxuanze:before { content: "\e684"; }
+.icon-caidan:before { content: "\e685"; }
+.icon-paisongdanxuanze:before { content: "\e686"; }
+.icon-dingdanwancheng:before { content: "\e687"; }
+.icon-fangxing:before { content: "\e688"; }
+.icon-jia:before { content: "\e689"; }
+.icon-xingbiaoxuanze:before { content: "\e68a"; }
+.icon-jian:before { content: "\e68b"; }
+.icon-xingbiao:before { content: "\e68c"; }
+.icon-anniu-queren:before { content: "\e68d"; }
+.icon-anniu-fenpeidingdan:before { content: "\e68e"; }
+.icon-caidanyijiedingdan:before { content: "\e68f"; }
+.icon-caidanliebiao:before { content: "\e690"; }
+.icon-caidanyuangongguanli:before { content: "\e691"; }
+.icon-jinruxiangqing:before { content: "\e693"; }
+.icon-dingdan:before { content: "\e694"; }
+.icon-yonghupingjia:before { content: "\e695"; }
+.icon-pingjiaxingxingkong:before { content: "\e696"; }
+.icon-pingjiaxingxingkong.active:before { content: "\e692"; }
+.icon-shijian:before { content: "\e697"; }
+.icon-anniu-liuzhuan:before { content: "\e698"; }
+.icon-caidanjiedan:before { content: "\e699"; }
+
+/* 盒子布局   */
+.flex-equal,.custom-equal{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}
+.flex-equal li,.flex-1{-webkit-box-flex:1;-ms-flex:1;-webkit-flex:1;flex:1;}
+.flex-1e5{-webkit-box-flex:1.5;-ms-flex:1.5;-webkit-flex:1.5;flex:1.5;}
+.flex-2{-webkit-box-flex:2;-ms-flex:2;-webkit-flex:2;flex:2;}
+.flex-2e5{-webkit-box-flex:2.5;-ms-flex:2.5;-webkit-flex:2.5;flex:2.5;}
+
+/* 文字对齐方式 */
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+
+/* 字体大小  */
+.ft10{font-size:1rem;}
+.ft12{font-size:1.2rem;}
+.ft13{font-size:1.3rem;}
+.ft14{font-size:1.4rem;}
+.ft15{font-size:1.5rem;}
+.ft16{font-size:1.6rem;}
+.ft18{font-size:1.8rem;}
+.ft20{font-size:2.0rem;}
+
+.mat10{margin-top: 10px;}
+.mab10{margin-bottom: 1rem;}
+.mar5{margin-right: 5px;}
+
+
+.member-order-bg{
+  background:#e2e2e2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y:auto;
+}
+
+.user-item-list-bg{
+  background:#f2f2f2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/*伸缩盒子模型*/
+
+.box {
+  display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox; /* 混合版本语法: IE 10 */
+  display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+  display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+/* 盒子布局   */
+
+/*从左至右*/
+
+.box-lr {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+/*从右至左*/
+
+.box-rl {
+  -webkit-box-pack: end;
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+/*从上至下*/
+
+.box-tb {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/*从下至上*/
+
+.box-bt {
+  -webkit-box-pack: end;
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column-reverse;
+  -webkit-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+/*主轴居中*/
+
+.box-pack-center {
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/*主轴居左*/
+
+.box-pack-start {
+  -webkit-box-pack: start;
+  -moz-justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+/*主轴居右*/
+
+.box-pack-end {
+  -webkit-box-pack: end;
+  -moz-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+/*主轴左右不留白*/
+
+.box-pack-between {
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+/*主轴左右留白*/
+
+.box-pack-around {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+/*交叉轴居中对齐*/
+
+.box-align-center {
+  -webkit-box-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/*交叉轴居左对齐*/
+
+.box-align-start {
+  -webkit-box-align: start;
+  -moz-align-items: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+/*交叉轴居右对齐*/
+
+.box-align-end {
+  -webkit-box-align: end;
+  -moz-align-items: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+/**单个指定的子元素自定义对齐方式，可以不同于其他子元素对齐方式**/
+
+/**指定子元素居中对齐**/
+
+.self-align-center {
+  align-self: center;
+  -webkit-align-self: center;
+  margin: 0 auto;
+}
+
+/**指定子元素顶部对齐**/
+
+.self-align-start {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+}
+
+/**指定子元素底部对齐**/
+
+.self-align-end {
+  align-self: flex-end;
+  -webkit-align-self: flex-end;
+}
+
+/**指定子元素拉伸**/
+
+.self-align-stretch {
+  align-self: stretch;
+  -webkit-align-self: stretch;
+}
+
+/**子元素换行**/
+
+.box-wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/**子元素不换行**/
+
+.box-nowrap {
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+/*允许子元素伸展（1倍）*/
+
+.flex {
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+/*允许子元素收缩(1倍)*/
+
+.shrink {
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  flex-shrink: 1;
+}
+
+/**水平居中*/
+
+.box-center-center {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  text-align: center;
+}
+
+/**垂直居中*/
+
+.box-center-center-v {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+
+/**窗口**/
+.win-title{
+  background: #5fadf8;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  left: 0;
+  top: 0;
+  font-size: 1.55rem
+}
+
+.win-body{
+  margin-top: 3.5rem;
+  padding: .7rem 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.we-pupup-footer li button{
+  height: 3.5rem!important;
+  line-height: 3.5rem!important;
+}

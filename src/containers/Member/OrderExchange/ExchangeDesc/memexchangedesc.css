@@ -1,0 +1,44 @@
+.m-exchange-info{
+	background:#FFF;
+}
+.exchange-goods{
+	height:3rem;
+	line-height:3rem;
+	padding:0 1.7rem;
+	color:#666;
+	font-size:1.25rem;
+}
+.exchange-depart{
+	color:#333;
+}
+.arrow-right-icon{
+	color:#999;
+	width:1.5rem;
+	height:2rem;
+	display:inline-block;
+	line-height:1.5rem;
+	font-size:1.4rem;
+}
+.m-exchange-person .m-exchange-desc ul li{
+	width:auto;
+	padding:0.5rem 1rem;
+	margin-bottom:1rem;
+}
+.m-exchange-person .m-exchange-desc{
+	padding-top:0;
+	padding-bottom:0;
+}
+.exchange-reason{
+	height:3.5rem;
+	line-height:3.5rem;
+	font-size:1.4rem;
+	padding:0 1.7rem;
+}
+.exchange-reason .we-input-Item{
+	padding:0;
+	line-height:3.5rem;
+	height:3.5rem;
+}
+.exchange-reason .we-input-control .we-input-cls{
+	line-height:3.5rem;
+}

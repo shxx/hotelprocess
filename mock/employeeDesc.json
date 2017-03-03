@@ -1,0 +1,34 @@
+{
+	"code":"SUCCESS",
+	"data": {
+		"employeeData": {
+			"employeeId":"1001",
+			"employeeName": "王晓华",
+			"employeePic": "/dist/images/employee_portrait.jpg",
+			"employeeDepart": "客房部",
+			"employeeJob": "客房服务员",
+			"employeeArea": "7",
+			"employeeWorkStatus": "工作",
+			"employeeOrderNum": 2,
+			"emPloyeeAverageScore": 5,
+			"employeeScrore":[{
+				"attitudeScore": 5,
+				"arriveScore": 5,
+				"qualityScore": 5
+			}],
+			"employeeOrderComplete":[{
+				"type":"D",
+				"num": 2,
+				"percentage": "100%"
+			},{
+				"type":"M",
+				"num": 21,
+				"percentage": "100%"
+			},{
+				"type":"all",
+				"num": 216,
+				"percentage": "91.5%"
+			}]
+		}
+	}
+}

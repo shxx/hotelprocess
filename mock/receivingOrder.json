@@ -1,0 +1,56 @@
+{
+    "code":"SUCCESS",
+    "data": {
+        "orderData": [{
+            "orderId": "1001",
+            "orderNo": "2017022200",
+            "orderStatus": "接单中",
+            "orderReq": "派送物品",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "毛巾",
+            "orderReqNum": "2",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120",
+            "exchangeDesc":[
+                {
+                    "exchangeTime": "2017-02-24 09:45:50",
+                    "fromPerson": "张三",
+                    "fromPersonDepart": "客服部",
+                    "toPerson": "李四",
+                    "toPersonDepart": "客服部",
+                    "exchangeNote": "休息中无法接单"
+                }
+            ]
+        },{
+            "orderId": "1001",
+            "orderNo": "2017022201",
+            "orderStatus": "接单中",
+            "orderReq": "清洁打扫",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "清洁打扫",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120",
+            "exchangeDesc":[]
+        },{
+            "orderId": "1001",
+            "orderNo": "2017022202",
+            "orderStatus": "接单中",
+            "orderReq": "清洁打扫",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "清洁打扫",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120",
+            "exchangeDesc":[]
+        }]
+    }
+}
+

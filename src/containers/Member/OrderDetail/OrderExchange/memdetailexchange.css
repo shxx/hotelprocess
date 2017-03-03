@@ -1,0 +1,74 @@
+.mem-orderdetail-exchange{
+	background:#FFF;
+	margin:0.75rem 0;
+}
+.order-detail-exchange{
+	padding:1.5rem 2.3rem;
+
+}
+.order-detail-exchange ul{
+	padding-left:1.5rem;
+	border-left:2px solid #dedede;
+	position:relative;
+}
+.order-detail-exchange ul:before{
+	position: absolute;
+    content: "";
+    background: #FFF;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    left: -1rem;
+    z-index: 1;
+}
+.order-detail-exchange ul:after{
+	position: absolute;
+    content: "";
+    background: #FFF;
+    bottom: 0;
+    width: 2rem;
+    height: 2rem;
+    left: -1rem;
+    z-index: 1;
+}
+.order-detail-exchange li{
+	margin-top:1.5rem;
+	position:relative;
+}
+.order-detail-exchange li:first-child{
+	margin-top:0;
+}
+.order-detail-exchange li span{
+	display:block;
+}
+.exchange-date{
+	color:#ccc;
+	font-size:1rem;
+}
+.order-detail-exchange li:first-child .exchange-person{
+	color:#3b77ed;
+}
+.exchange-person{
+	color:#999;
+	font-size:1.4rem;
+}
+.exchange-note{
+	color:#333;
+	font-size:1.2rem;
+}
+.order-detail-exchange li:first-child .exchange-radio{
+	background:#FFF;
+	border:2px solid #3b77ed;
+}
+.exchange-radio{
+	z-index:2;
+	position:absolute;
+	width:1.2rem;
+	height:1.2rem;
+	background:#dedede;
+	display:block;
+	left:-2.35rem;
+	top:0.75rem;
+	border:2px solid #dedede;
+	border-radius:50%;
+}

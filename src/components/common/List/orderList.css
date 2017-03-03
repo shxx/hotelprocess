@@ -1,0 +1,118 @@
+
+.order-lists .list{
+    padding: 15px 12px 10px 11px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    position: relative;
+}
+.order-lists .list:before, .order-lists .list:after{
+    content: " ";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    -webkit-transform: scaleY(.5);
+    -webkit-transform-origin: 0 100% 0;
+    transform: scaleY(.5);
+    transform-origin: 0 100% 0;
+}
+
+.order-lists .list:before{
+    top: -1px;
+}
+.order-lists .list:after{
+     bottom: -1px;
+ }
+
+.order-lists .hotel-name{
+    font-size: 16px;
+    line-height: 20px;
+    color: #3c3c3c;
+    padding-bottom: 7px;
+    padding-right: 64px;
+    position: relative;
+}
+.order-lists .hotel-name .tip{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    color: #fff;
+    background-color: #5babfc;
+    padding: 5px 10px;
+    line-height: 1;
+}
+.order-lists .hotel-name .tip.gray{
+    background-color: #bbb;
+}
+
+
+.order-lists .hotel-name .tip:before{
+    position: absolute;
+    left: -6px;
+    top: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #5babfc #5babfc transparent transparent;
+}
+.order-lists .hotel-name .gray:before{
+    border-color: #bbb #bbb transparent transparent;
+}
+
+.order-lists .hotel-info{
+    font-size: 1.3rem;
+    line-height: 20px;
+    color: #666;
+    padding-bottom: 12px;
+}
+.order-lists .list-foot .total{
+    font-size: 1.3rem;
+    line-height: 20px;
+    color: #3c3c3c;
+}
+.order-lists .list-foot .total span{
+    font-size: 1.8rem;
+    color: #ff5341;
+}
+.order-lists .list-foot .btn{
+    font-size: 14px;
+    color: #fff;
+    background-color: #5babfc;
+    padding: 7px 16px;
+    border-radius: 3px;
+}
+.order-lists .list-foot .action .hint{
+    font-size: 1.2rem;
+    color: #ff4a41;
+    padding: 6px;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+}
+.order-lists .list-foot .action .hint:after{
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    content: "";
+    height: 200%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width: 200%;
+    border-radius: 6px;
+}
+
+.no-order{
+    margin: 0 28%;
+    margin-top: 100px;
+    height: 200px;
+    background: url(/h5/dist/images/no-order.png) no-repeat;
+    background-size: 100%;
+}

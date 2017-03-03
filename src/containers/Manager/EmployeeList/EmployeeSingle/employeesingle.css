@@ -1,0 +1,137 @@
+.employee-single-wrap{
+}
+.employee-num{
+	font-size:2rem;
+	line-height:2rem;
+	height:2rem;
+	font-size:1.2rem;
+	padding:0 1.7rem;
+	color:#999;
+}
+.employee-single-list{
+	background:#FFF;
+	position:relative;
+	margin-bottom:0.75rem;
+}
+.employee-single-list a{
+	display:block;
+}
+.employee-single-list a:active{
+	background:#efefef;
+}
+.employee-single-list ul{
+	height:7rem;
+	padding:0 1.7rem;
+}
+.em-workstatus{
+	position:absolute;
+	right:0;
+	top:0;
+	width:5.5rem;
+	height:1.8rem;
+	line-height:1.8rem;
+	font-size:1.1rem;
+	border-bottom-left-radius:0.5rem;
+	-wekbit-border-bottom-left-radius:0.5rem;
+	text-align:center;
+	color:#FFF;
+}
+.y_status{
+	background:#3b77ed;
+}
+.n_status{
+	background:#9eb8eb;
+}
+.r_status{
+	background:#d2d2d2;
+}
+.em-workstatus b{
+	font-size:1.3rem;
+}
+.employee-img{
+	width:4rem;
+	height:4rem;
+	position:relative;
+	overflow: hidden;
+	margin-top:1.25rem;
+	padding:0.25rem;
+}
+.employee-img:after{
+	position: absolute;
+	content:"";
+	border:1px solid #dedede;
+	box-sizing: border-box;
+    content: "";
+    height: 200%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width:200%;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.employee-img img{
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	width:4rem;
+	height:4rem;
+}
+.em-desc{
+	padding:1.25rem 1rem 0;
+	color:#999;
+	font-size:1.2rem;
+}
+.em-desc span{
+	display:block;
+}
+.em-name{
+	color:#333;
+	font-size:1.65rem;
+	height:2rem;
+	line-height:2rem;
+}
+.em-depart b{
+	margin-left:0.5rem;
+	padding-left:0.5rem;
+	display:inline-block;
+	position:relative;
+}
+.em-depart b:first-child{
+	margin-left:0;
+	padding-left:0;
+}
+.em-depart b:first-child:before{
+	border-left:none;
+}
+.em-depart b:before{
+	position: absolute;
+	content:"";
+	border-left:1px solid #dedede;
+	box-sizing: border-box;
+    content: "";
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    top: 0.25rem;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width:1;
+}
+.em-floor{
+	font-size:1.4rem;
+	padding-left:0.5rem;
+}
+.employee-link{
+	width:2rem;
+	height:2rem;
+	line-height:2rem;
+	margin-top:2.5rem;
+	color:#999;
+	font-size:2rem;
+}

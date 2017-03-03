@@ -1,0 +1,132 @@
+.user-item-list{
+	position: absolute;
+	right: 0;
+	width: 73.3%;
+	height: calc( 100% - 8rem );
+	margin: 4rem 0;
+	background: #fff;
+	overflow-y: auto;
+}
+
+.user-item-list-row{
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	height: 6.7rem;
+	margin: 0 0 0 1.5rem;
+	padding: 1.65rem .85rem 1.65rem 0;
+}
+
+.user-item-list-row:after {
+	border-bottom: 2px solid #f2f2f2;
+	box-sizing: border-box;
+	content: "";
+	height: 200%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	-webkit-transform: scale(.5);
+	-webkit-transform-origin: 0 0 0;
+	transform: scale(.5);
+	transform-origin: 0 0 0;
+	width: 200%;
+}
+
+.user-item-list-pic{
+    float: left;
+	width: 7.5rem;
+	height: 100%;
+	background: #aaa;
+	border-radius: 5px;
+}
+
+.user-item-list-content{
+	position: relative;
+	flex: 1;
+    z-index: 2;
+	height: 100%;
+	margin-left: 1.17rem;
+	font-size: 1.46rem;
+	color: #424242;
+	bottom: 0;
+}
+
+.user-item-list-action{
+	position: absolute;
+	bottom: 0;
+	padding: .5rem 0;
+}
+
+.user-item-list-minus,.user-item-list-plus{
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 1px solid #5babfc;
+	border-radius: 999px;
+	margin-right: .8rem;
+}
+
+.user-item-list-minus span:first-of-type,.user-item-list-plus span:first-of-type{
+	position: absolute;
+	display: block;
+	width: .8rem;
+	height: 2px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: #5babfc;
+}
+
+.user-item-list-plus span:last-of-type{
+	position: absolute;
+	display: block;
+	width: .8rem;
+	height: 2px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: #5babfc;
+	-webkit-transform: rotateZ(90deg);
+	-webkit-transform-origin: 50% 50%;
+	transform: rotateZ(90deg);
+	transform-origin: 50% 50%;
+}
+
+.user-item-list-amount{
+	float: left;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	margin-right: .8rem;
+}
+
+.user-item-list-btn{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 1.19rem;
+	text-align: center;
+	background: #5babfc;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.user-item-list-disable{
+    pointer-events: none;
+}
+
+.user-item-list-btn.user-item-list-disable,.user-item-list-plus.user-item-list-disable span,.user-item-list-minus.user-item-list-disable span{
+    background: #ccc;
+}
+
+.user-item-list-plus.user-item-list-disable,.user-item-list-minus.user-item-list-disable{
+	border: 1px solid #ccc;
+}

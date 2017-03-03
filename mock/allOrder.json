@@ -1,0 +1,56 @@
+{
+    "code":"SUCCESS",
+    "data": {
+        "orderData": [{
+            "orderId": "1001",
+            "orderNo": "2017022200",
+            "orderStatus": "已流转",
+            "orderReq": "派送物品",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "毛巾",
+            "orderReqNum": "2",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120"
+        },{
+            "orderId": "1002",
+            "orderNo": "2017022201",
+            "orderStatus": "已流转",
+            "orderReq": "派送物品",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "毛巾",
+            "orderReqNum": "2",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120"
+        },{
+            "orderId": "1003",
+            "orderNo": "2017022202",
+            "orderStatus": "已完成",
+            "orderReq": "清洁打扫",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "清洁打扫",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120"
+        },{
+            "orderId": "1004",
+            "orderNo": "2017022203",
+            "orderStatus": "已完成",
+            "orderReq": "清洁打扫",
+            "currentTime": "2017-02-24 09:44:50",
+            "orderPlaceTime": "2017-02-24 15:35:00",
+            "hotelRoom": "A102",
+            "person": "殷林林",
+            "orderDesc": "清洁打扫",
+            "orderSurplusTime": "200",
+            "orderReceivingTime": "120"
+        }]
+    }
+}

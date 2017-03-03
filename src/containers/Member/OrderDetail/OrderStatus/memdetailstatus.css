@@ -1,0 +1,31 @@
+.mem-orderdetail-status{
+	background:#3b77ed;
+	background: linear-gradient(to bottom, #288ffa 0%, #3e90f4 50%, #3b77ed 100%);
+	height:7rem;
+	padding:2.5rem 0;
+}
+.mem-orderdetail-status p{
+	text-align:center;
+	color:#FFF;
+}
+.order-detail-s{
+	font-size:2.2rem;
+	height:3rem;
+	line-height:3rem;
+}
+.order-detail-time{
+	height:2rem;
+	line-height:2rem;
+	font-size:1.1rem;
+}
+.order-detail-countdown{
+	height:2rem;
+	line-height:2rem;
+	font-size:2.2rem;
+}
+.detail-shijian-icon{
+	width:1.5rem;
+	height:1.5rem;
+	line-height:1.5rem;
+	display:inline-block;
+}

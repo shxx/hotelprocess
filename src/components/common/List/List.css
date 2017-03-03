@@ -1,0 +1,29 @@
+.we-list .we-list-content,.we-list .we-list-extra,.we-list .we-list-rightCon{width:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.we-list{margin:0.75rem 0;background:#FFF;}
+.we-list div:last-child:after{border-bottom:none;}
+.we-list a{display:block;}
+.we-list .we-list-item{padding:1rem;height:2.4rem;line-height:2.4rem;}
+.we-list-item ul li:first-child{color: #3c3c3c;}
+.we-list .we-list-content,.we-list .we-list-rightCon{font-size:1.5rem;}
+.we-list-content span{vertical-align:middle;}
+.we-list .we-list-extra{width:auto;min-width:6rem;text-align:right;font-size:1.4rem;color:#5babfc;}
+.we-list-arrow{width:2rem;text-align:right;color:#bbb;}
+.we-list-arrow span{display:block;font-size:1rem;height:2rem;}
+.we-list-icon{display:inline-block;font-size:2.4rem;width:2.4rem;line-height:2.4rem;padding-right:0.5rem;color:#5babfc;}
+
+.order-info{padding:1rem;}
+.order-info dl{font-size: 14px;line-height:28px;position: relative;}
+.order-info dt{width:9rem;float: left;color:#666;}
+.order-info dd{margin-left:9rem;color:#3c3c3c;height: 28px;}
+.order-info .tip{position: absolute;right: 0;top: 0;color: #fff;background-color: #5babfc;padding: 5px 10px;line-height: 1;}
+.order-info .tip.gray{background-color: #bbb;}
+.order-info .tip.gray:before{    border-color: #bbb #bbb transparent transparent;}
+.order-info .tip:before{position: absolute;left: -6px;top: 0;content: '';width: 0;height: 0;border-width: 3px;border-style: solid;border-color: #5babfc #5babfc transparent transparent;}
+.order-info .f78{color: #ff4a41;}
+.order-info .hint{font-size: 1.2rem;color: #fe6e5f;padding: 6px;border-radius: 3px;position: absolute;right:0;height: 18px;line-height: 18px;}
+.order-info .hint:after{border: 1px solid #e5e5e5;box-sizing: border-box;content: "";height: 200%;left: 0;position: absolute;top: 0;-webkit-transform: scale(.5);-webkit-transform-origin: 0 0 0;transform: scale(.5);transform-origin: 0 0 0;width: 200%;border-radius: 6px;}
+.hollow-btn{border:1px solid #5babfc;color: #5babfc;font-size:15px;border-radius: 3px;padding: 8px 12px;margin-right: 1rem;}
+.hollow-btn.red{color: #ff5341;border-color: #ff5341;}
+.de-date p{color: #666;font-size:1.3rem;}
+.de-date .night{padding:1.2rem;color: #5babfc;}
+.order-info.ddh28 dd{height: 2.8rem;}

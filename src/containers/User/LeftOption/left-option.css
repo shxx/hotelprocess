@@ -1,0 +1,56 @@
+.user-left-option {
+	position:fixed;
+	left: 0;
+	height: calc( 100% - 8rem );
+	width: 26.7%;
+	background: #f2f2f2;
+	margin: 4rem 0;
+}
+
+.user-left-option li {
+	position:relative;
+	display: block;
+	height: 5rem;
+	line-height: 5rem;
+	overflow: hidden;
+	text-align:center;
+	font-size:1.37rem;
+	color:#666;
+}
+
+.user-left-option li:after {
+	 border-bottom: 2px solid #e6e6e6;
+	 box-sizing: border-box;
+	 content: "";
+	 height: 200%;
+	 left: 0;
+	 position: absolute;
+	 top: 0;
+	 -webkit-transform: scale(.5);
+	 -webkit-transform-origin: 0 0 0;
+	 transform: scale(.5);
+	 transform-origin: 0 0 0;
+	 width: 200%;
+}
+
+.user-left-option li.active {
+	background: #fff;
+	font-weight: bold;
+}
+
+.user-left-option li span {
+	position: absolute;
+	display: block;
+	left: 0%;
+	top: 17%;
+	width: 4%;
+	height: 66%;
+}
+
+.user-left-option li.active span{
+	background: #51a0f2;
+}
+
+
+
+

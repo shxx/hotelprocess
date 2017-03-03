@@ -1,0 +1,129 @@
+.user-comment{
+	padding: 2rem 1.25rem;
+	background: #fff;
+}
+
+.user-comment-server-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-comment-server{
+	position: relative;
+}
+
+.user-comment .user-order-list-pic2{
+	float: left;
+	margin: 0;
+}
+
+.user-comment-server span{
+	float: left;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.4rem;
+	color: #333;
+	margin-left: 1rem;
+}
+
+.user-comment-divider{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 2rem 0 1rem 0;
+}
+
+.user-comment-divider span{
+	position: relative;
+	z-index: 2;
+	color: #bbb;
+	background: #fff;
+	padding: 0 .5rem;
+}
+
+.user-comment-divider:after {
+	border-bottom: 2px solid #f2f2f2;
+	box-sizing: border-box;
+	content: "";
+	height: 200%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	-webkit-transform: scale(.5) translateY(-50%);
+	-webkit-transform-origin: 0 0 0;
+	transform: scale(.5) translateY(-50%);
+	transform-origin: 0 0 0;
+	width: 200%;
+}
+
+.user-comment-rating{
+	font-size: 1.37rem;
+	color: #999;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	margin: 1.5rem 0;
+}
+
+.user-comment-rating i{
+	font-size: 2rem;
+	padding: 0 .25rem;
+}
+
+.user-comment-rating span{
+	margin-left: 1rem;
+	color: #bbb;
+}
+
+.user-comment-text{
+	position: relative;
+	width: 100%;
+	height: 10rem;
+	margin-top: 1rem;
+}
+
+.user-comment-text textarea{
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	padding: 1rem;
+	background: #f2f2f2;
+	border: none;
+	box-sizing: border-box;
+}
+
+.user-comment-text textarea:after {
+	border: 2px solid #e6e6e6;
+	box-sizing: border-box;
+	content: "";
+	height: 200%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	-webkit-transform: scale(.5);
+	-webkit-transform-origin: 0 0 0;
+	transform: scale(.5);
+	transform-origin: 0 0 0;
+	width: 200%;
+}
+
+.user-comment-btn{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.user-comment-btn button{
+    width: 100%;
+	height: 4rem;
+	background: #5cd07a;
+	color: #fff;
+	font-size: 1.4rem;
+	border: none;
+}
+
+.user-comment-rating i.active{
+	color: #f18924;
+}

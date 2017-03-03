@@ -1,0 +1,128 @@
+.mem-Employee-info{
+	background:#3b77ed;
+	background: linear-gradient(to bottom, #288ffa 0%, #3e90f4 50%, #3b77ed 100%);
+	min-height:12rem;
+	padding:1rem 0;
+}
+.mem-Employee-info p{
+	text-align:center;
+	color:#FFF;
+}
+.employee-portrait{
+	width:7rem;
+	height:7rem;
+	margin:0 auto;
+	background:#FFF;
+	border-radius:7rem;
+	padding:0.2rem;
+}
+.employee-portrait img{
+	border-radius:7rem;
+}
+.employee-name{
+	height:3rem;
+	line-height:3rem;
+	font-size:1.7rem;
+}
+.employee-department{
+	font-size:1.4rem;
+}
+.employee-department span{
+	margin-left: 0.5rem;
+    padding-right: 0.75rem;
+}
+.employee-department span:first-child{
+	position:relative;
+	display:inline-block;
+}
+.employee-department span:first-child:after{
+	border-right: 1px solid #dcdcde;
+    box-sizing: border-box;
+    content: "";
+    height: 2.4rem;
+    right: 0;
+    position: absolute;
+    top: 0.15rem;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width: 1px;
+}
+.employee-desc-edit{
+	margin-top:0.5rem;
+}
+.employee-desc-edit a{
+	color:#FFF;
+}
+.employee-desc-edit span{
+	display:inline-block;
+	position:relative;
+	height:2rem;
+	line-height:2rem;
+	padding:0 1rem;
+	line-height:2rem;
+}
+.employee-desc-edit span:after{
+	border: 1px solid #dcdcde;
+    box-sizing: border-box;
+    content: "";
+    height: 200%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width: 200%;
+    border-radius:2rem;
+    -webkit-border-radius:2rem;
+}
+.employee-work{
+	height:6rem;
+	background:#FFF;
+}
+.employee-work ul{
+	padding:1rem;
+}
+.employee-work li{
+	position:relative;
+}
+.employee-work li:first-child:after{
+	border-left:none;
+}
+.employee-work li:after{
+	border-left: 1px solid #dcdcde;
+    box-sizing: border-box;
+    content: "";
+    height: 200%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0 0;
+    transform: scale(.5);
+    transform-origin: 0 0 0;
+    width: 1px;
+}
+
+.employee-work li span{
+	display:block;
+	text-align:center
+}
+.employee-t{
+	height:2rem;
+	line-height:2rem;
+	color:#999;
+	font-size:1.2rem;
+}
+.employee-b{
+	height:2rem;
+	line-height:2rem;
+	color:#333;
+	font-size:1.4rem;
+}
+.work-status{
+	color:#3b77ed;
+}

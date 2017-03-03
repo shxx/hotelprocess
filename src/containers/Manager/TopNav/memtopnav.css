@@ -1,0 +1,27 @@
+.mem-top-nav{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	height:3.5rem;
+	color:#666;
+	font-size:1.3rem;
+	background:#FFF;
+	z-index:3;
+}
+.mem-top-nav ul{
+	height:3.5rem;
+	line-height:3.5rem;
+	position:relative;
+	overflow:hidden;
+}
+
+.mem-top-nav li{
+	text-align:center;
+}
+.mem-top-nav li.current{
+	color:#3b77ed;
+	border-bottom:2px solid #3b77ed;
+	position:relative;
+	top:-1px;
+}

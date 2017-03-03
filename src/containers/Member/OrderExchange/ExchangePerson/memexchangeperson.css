@@ -1,0 +1,23 @@
+.m-exchange-person{
+	background:#FFF;
+	margin-top:0.75rem;
+}
+.m-exchange-person .m-exchange-title{
+	color:#999;
+	height:3.5rem;
+	line-height:3.5rem;
+}
+.reason-4{
+	width:25%;
+}
+
+.exchange-reason{
+	color:#999;
+}
+.exchange-reason input::-webkit-input-placeholder{
+	color:#ccc;
+}
+
+.m-exchange-btn .we-button:disabled{
+	background:#ccc;
+}

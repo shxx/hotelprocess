@@ -1,0 +1,14 @@
+
+
+
+.animate-slide-left-appear {
+  transform: translate(100%, 0);
+}
+.animate-slide-right-appear {
+  transform: translate(-100%, 0);
+}
+.animate-slide-left-appear.animate-slide-left-appear-active,
+.animate-slide-right-appear.animate-slide-right-appear-active {
+  transform: translate(0, 0);
+  transition: transform .1s ease-in;
+}

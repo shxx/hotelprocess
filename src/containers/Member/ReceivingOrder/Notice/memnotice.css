@@ -1,0 +1,17 @@
+.mem-notice{
+	background:#ff4d6a;
+	height:3rem;
+	line-height:3rem;
+	padding:0 1.5rem;
+	color:#FFF;
+	font-size:1.3rem;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	z-index:9;
+}
+.mem-top3{
+	height:calc(100% - 7rem);
+	padding-top:3rem;
+}

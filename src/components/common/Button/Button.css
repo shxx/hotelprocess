@@ -1,0 +1,22 @@
+.we-button {
+    position: relative;
+    display: inline-block;
+    outline: 0 none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 0 none;
+    color: #fff;
+    background-color: #5babfc;
+}
+.we-button-large{width: 100%;}
+.we-button-small{width: auto;padding: 0 1rem;}
+.we-button-radius10{border-radius:10px;}
+.we-button-radius20{border-radius:2rem;}
+.we-button-radius30{border-radius:30px;}
+.we-button:disabled{background-color: #b0d3f9;}
+/*.we-button:not(:disabled):active{background-color: #3e9cfb;}*/

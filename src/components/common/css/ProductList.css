@@ -1,0 +1,254 @@
+/* 酒店列表页面 */
+.we-product-box{
+	height: calc(100% - 7.8rem);
+	margin-top: 7.8rem;
+}
+.we-product-scroll{
+	height: 100%;
+	overflow-y: auto;
+}
+.we-prolist-date{
+	font-size: 1.5rem;
+	line-height: 2;
+	padding-left: 1rem;
+	color: #9a9a9a;
+	background-color: #f2f2f2;
+}
+.we-prolist-details{
+	position: relative;
+	padding-top: 1rem;
+}
+.we-prolist-left{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 7.5rem;
+	height: 7rem;
+	margin: 0 .8rem;
+	border-radius: 5px;
+	background: url('/h5/dist/images/liebiao.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+.we-prolist-left img{width: 100%;height: 100%;}
+.we-prolist-title-icon,.we-prolist-distance-icon{
+	width: 1.4rem;
+}
+.title-icon-jjzx{
+	width: 2rem;
+	height: 2rem;
+	margin-top: -0.3rem;
+	margin-left: -0.3rem;
+}
+/*.we-prolist-title-icon-box{
+	vertical-align: middle;
+	height: 1.4rem;
+	margin-right: .3rem;
+}*/
+/**/
+.we-prolist-title-icon-box {
+    position: relative;
+    display: inline-block;
+    width: 1.6rem;
+}
+.we-prolist-title-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.8rem;
+    margin-top: -.9rem;
+}
+
+
+/**/
+.productlist-title-text{
+	display: inline-block;
+	max-width: 70%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: middle;
+	color: #3c3c3c;
+	font-size: 1.4rem;
+}
+.we-prolist-right .iconfont{
+	color: #d0a56d;
+}
+.we-prolist-right .icon-iconjuli{
+	color:#9a9a9a;
+}
+.we-prolist-right{
+	overflow: hidden;
+	position: relative;
+	width: calc(100% - 9.5rem);
+	height: 8rem;
+	box-shadow: 0 1px 0 #dedede;
+}
+/* .we-prolist-right:after{
+	border-bottom:1px solid #dedede;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	content: "";
+	width:200%;
+	height:1px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	-webkit-transform:scale(0.5);
+	-webkit-transform-origin:0 0 0;
+	transform:scale(0.5);
+	transform-origin:0 0 0;
+} */
+.we-prolist-right li{
+	margin-bottom: .3rem;
+}
+.we-prolist-keyword{
+	margin-right: .5rem;
+	padding: .1rem .4rem;
+	border: 1px solid #439ef9;
+	border-radius: 5px 5px 5px 0;
+	color: #4fa5f8;
+}
+.we-prolist-price{
+	position: absolute;
+	right: 1rem;
+	bottom: 2.8rem;
+	color:#ff4A41;
+}
+.we-prolist-inblc{
+	display: inline-block;
+	margin-right: .8rem;
+}
+.we-prolist-right i{
+	margin-right: .5rem;
+}
+.hotel-num{
+	font-size: 1.2rem;
+}
+.pro-sort-box{
+	overflow: hidden;
+	position: fixed;
+	z-index: 999;
+	top: 4rem;
+	left: 0;
+	right: 0;
+	height: 3.8rem;
+	line-height: 3.8rem;
+	/*padding-top: 4rem;*/
+	padding: 0 1rem;
+	text-align: center;
+	background-color: #fff;
+}
+.pro-sort-box:after{
+	border-bottom:1px solid #dedede;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	content: "";
+	width:200%;
+	height:1px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	-webkit-transform:scale(0.5);
+	-webkit-transform-origin:0 0 0;
+	transform:scale(0.5);
+	transform-origin:0 0 0;
+}
+.pro-sort-box .we-button{
+	font-size: 1.4rem;
+	color:#3c3c3c;
+	background-color: #fff;
+}
+.pro-sort-box .we-button .icon-iconmore,.pro-sort-box .we-button .icon-iconunford{
+	color: #3c3c3c;
+	font-size: 1rem;
+	margin-left: .5rem;
+}
+
+.pro-sort-box .active{
+	color: #4d9ff5;
+}
+.pro-sort-box .flex-equal li:first-child{text-align: left;}
+.pro-sort-box .flex-equal li:last-child{text-align: right;}
+
+.hotel-selbtn:after,.open-close-btn:after{
+	font-size: 1rem;
+	margin-left: .5rem;
+	color: #9a9a9a;
+	font-family:"iconfont" !important;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\e635";
+}
+.hotel-selbtn.active:after,.open-close-btn.active:after{
+	font-size: 1rem;
+	margin-left: .5rem;
+	color: #9b9b9b;
+	content: "\e63a";
+}
+.open-close-btn.active:after{
+	margin-right:1rem;
+}
+.open-close-btn:after{
+	margin-right:1rem;
+}
+.open-close-btn:before{content:'展开';padding-left:1.2rem;}
+.open-close-btn.active:before{content:'关闭';padding-left:1.2rem;}
+
+.pic-hot{
+	position: absolute;
+	top: .5rem;
+	left: -1.6rem;
+	width: 6rem;
+	height: 1.6rem;
+  line-height: 1.6rem;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	font-size: 1.2rem;
+	color: #fff;
+	background-color: #ff5500;
+}
+.hotel-popup-box{
+	position: fixed;
+	top: 7.8rem;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: calc(100% - 7.8rem);
+}
+.pcs .hoter-filter-scroll{
+	height: calc(100% - 7.8rem);
+}
+.pcs .hotel-filter-btn{
+	position: static;
+	margin: 2rem auto;
+}
+.hotel-pub-mask{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+.hotel-pub-popup{
+	background-color: #fff;
+}
+.c9a9a9a{
+	color: #9a9a9a;
+}
+.margin-right-icon i.icon-iconsearch01{
+	font-size: 2.2rem;
+}
+.we-product-box .search-data-wrap{
+	top: 50%;
+}
+/*登录注册页面适配可视区最大宽度320以下的手机 ps：ipohne4*/
+@media screen and (max-width:320px){
+	.productlist-title-text{
+		max-width: 60%;
+	}
+}

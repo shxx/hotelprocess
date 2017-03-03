@@ -1,0 +1,51 @@
+{
+    "code":"SUCCESS",
+    "data": {
+        "employeeData": [{
+            "employeeId":"1001",
+            "employeeName": "王晓华",
+            "employeePic": "/dist/images/employee_portrait.jpg",
+            "employeeDepart": "客房部",
+            "employeeJob": "客房服务员",
+            "employeeArea": "7",
+            "employeeWorkStatus": "工作中",
+            "employeeOrderNum": 2
+        },{
+            "employeeId":"1002",
+            "employeeName": "张三",
+            "employeePic": "/dist/images/employee_2.jpg",
+            "employeeDepart": "客房部",
+            "employeeJob": "客房服务员",
+            "employeeArea": "7",
+            "employeeWorkStatus": "工作中",
+            "employeeOrderNum": 0
+        },{
+            "employeeId":"1003",
+            "employeeName": "李小四",
+            "employeePic": "/dist/images/employee_3.jpg",
+            "employeeDepart": "客房部",
+            "employeeJob": "客房服务员",
+            "employeeArea": "10",
+            "employeeWorkStatus": "工作中",
+            "employeeOrderNum": 5
+        },{
+            "employeeId":"1004",
+            "employeeName": "露露",
+            "employeePic": "/dist/images/employee_4.jpg",
+            "employeeDepart": "客房部",
+            "employeeJob": "客房服务员",
+            "employeeArea": "10",
+            "employeeWorkStatus": "休息中",
+            "employeeOrderNum": 0
+        },{
+            "employeeId":"1005",
+            "employeeName": "琪琪",
+            "employeePic": "/dist/images/employee_5.jpg",
+            "employeeDepart": "客房部",
+            "employeeJob": "客房服务员",
+            "employeeArea": "7",
+            "employeeWorkStatus": "休息中",
+            "employeeOrderNum": 0
+        }]
+    }
+}

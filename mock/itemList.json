@@ -1,0 +1,12 @@
+{
+	"code":"SUCCESS",
+	"data": {
+		"itemData":[{
+			"itemName": "毛巾",
+			"itemAmount": "0"
+		},{
+			"itemName": "拖鞋",
+			"itemAmount": "0"
+		}]
+	}
+}

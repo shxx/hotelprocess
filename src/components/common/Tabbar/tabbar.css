@@ -1,0 +1,10 @@
+.wehotel-tabnavr{position:fixed;bottom:0;width:100%;height:4.5rem;z-index:1000;background:#fff;color:#3c3c3c;}
+.wehotel-tabnavr ul{position:relative;}
+.wehotel-tabnavr ul:before{border-top:1px solid #dedede;-webkit-box-sizing:border-box;box-sizing:border-box;content: "";height:1;left:0;position:absolute;top:0;transform:scale(0.5);transform-origin:0 0 0;width:200%;}
+.wehotel-tabnavr li{padding-top:0.8rem;text-align:center;}
+.wehotel-tabnavr li a{display:block;}
+.wehotel-tabnavr li i{font-size:2.4rem;color:#9a9a9a;}
+.wehotel-tabnavr li:nth-child(2) i{font-size:2.2rem;}
+.wehotel-tabnavr li span{display:block;font-size:1.2rem;line-height:1.5rem;color:#3c3c3c;}
+.wehotel-tabnavr li.selected span{color:#5babfc;}
+.wehotel-tabnavr li.selected span i{color:#5babfc;}
